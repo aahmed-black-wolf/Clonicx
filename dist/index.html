@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <title>Clonicx</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <a class="main-header-link" href="#">Clonicx</a>
+    </header>
+    <section class="controller-section">
+      <input
+        type="text"
+        class="border-class"
+        id="controller-section-input"
+        placeholder="Download the video..."
+      />
+    </section>
+    <button class="download-btn border-class">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        height="24px"
+        viewBox="0 -960 960 960"
+        width="24px"
+        fill="#25bbb3"
+      >
+        <path
+          d="m720-120 160-160-56-56-64 64v-167h-80v167l-64-64-56 56 160 160ZM560 0v-80h320V0H560ZM240-160q-33 0-56.5-23.5T160-240v-560q0-33 23.5-56.5T240-880h280l240 240v121h-80v-81H480v-200H240v560h240v80H240Zm0-80v-560 560Z"
+        />
+      </svg>
+    </button>
+    <script src="./views/renderer.js"></script>
+  </body>
+</html>
